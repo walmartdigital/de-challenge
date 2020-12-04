@@ -1,9 +1,5 @@
 # Data Engineer - Challenge
-<<<<<<< HEAD
 This is the Basic Challenge for Data Engineers. 
-=======
-This is the Basic Challenge for Data Engineers.
->>>>>>> c43279eb2e8aa50cb054c604ff406d314197eee9
 
 Lider.cl wants to create a new shiny section for videogames, in order to bring custom videogame information to our clients, our Analytics team needs a new report each day with several videogames information. This information will be use to create a lot of ML models & Data Sicence to give the best experience to our customers and make the best decision of which videogame buy.
 
