@@ -31,7 +31,7 @@ And of course, we need the code to see how you do this.
 - You can create a new README for anything you want to tell us. Please don't name README.md
 - We want to see if you know how to code, so use the best & top practices of Software Engineering!.
 - This is an ETL Job, so show us all you know about good practices to do ETL's.
-- Save all the changes in a new branch with your name.
+- Save all the changes in your personal GitHub account and send us the link to clone and see the repository.
 
 ## Datasets
 We use the data from TopGames provided by Metascore.
