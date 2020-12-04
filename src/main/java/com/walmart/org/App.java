@@ -10,6 +10,6 @@ public class App
     public static void main( String[] args )
     {
 
-        System.out.println( "Hello World!" );
+        System.out.println( "Create your ETL job here & Good Luck!..." );
     }
 }

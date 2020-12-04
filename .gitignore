@@ -32,3 +32,5 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### You can add your own IDE ignore things here.
