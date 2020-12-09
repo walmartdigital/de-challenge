@@ -29,7 +29,7 @@ And of course, we need the code to see how you do this.
 
 # Concerns
 - You can create a new README for anything you want to tell us. Please don't name README.md
-- We want to see if you know how to code, so use the best & top practices of Software Engineering!.
+- We want to see if you know how to code in a professional way, so use the best practices of Software Engineering!.
 - This is an ETL Job, so show us all you know about good practices to do ETL's.
 - Save all the changes in your personal GitHub account and send us the link to clone and see the repository.
 
