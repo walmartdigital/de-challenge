@@ -25,7 +25,6 @@ Use any tool, but please tell us the tool you choose & why.
 
 ## Deployment 
 We want you to give us the way to deploy your job and run it in any environment, So please put the way to deploy very clearly.
-And of course, we need the code to see how you do this.
 
 # Concerns
 - You can create a new README for anything you want to tell us. Please don't name README.md
