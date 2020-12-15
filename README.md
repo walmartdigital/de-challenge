@@ -4,7 +4,7 @@ This is the Basic Challenge for Data Engineers.
 Lider.cl wants to create a new shiny section for videogames, to bring custom videogame information to our clients, our Analytics team needs a new report each day with several videogames information. This information will be used to create a lot of ML models & Data Science to give our customers the best experience and make the best decision of which videogame buy.
 
 For this Challenge, we want you to do a Job who give us the Data for the Analytics team, but with a few concerns:
-- The Job must be an ETL code in Java or Scala.
+- The Job must be an ETL code in Java or Scala or Python.
 - We need the Data Model for the problem.
 - And we want a Deployment for this code.
 
