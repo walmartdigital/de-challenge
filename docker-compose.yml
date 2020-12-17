@@ -1,0 +1,17 @@
+version: '3.7'
+  
+services:
+  backend:
+    image: "games_api"
+    build: ./
+    environment:
+      TZ: "America/Santiago"
+      PYTHONUNBUFFERED: 1
+    volumes:
+      - ./:/root/ 
+    command: "uvicorn main:app --reload --workers 1 --host 0.0.0.0 --port 8080"
+               
+    ports:
+      - 8080:8080
+
+  

@@ -1,0 +1,9 @@
+{
+    "project": {
+        "host": "0.0.0.0",
+        "port": 8080,
+        "url_prefix": "/game_service",
+        "api_name": "game_service",
+        "version": "1.0"
+    }
+}
