@@ -34,3 +34,4 @@ build/
 .vscode/
 
 ### You can add your own IDE ignore things here.
+__pycache__/
