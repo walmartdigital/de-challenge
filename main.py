@@ -6,7 +6,7 @@ from service_game import controller as game
 from core.base_model import ErrorResponse
  
 app = FastAPI(
-    root_path= f'{URL_PREFIX}/',
+    root_path= f'{URL_PREFIX}',
     title = API_NAME,
     version = API_VERSION ,
     docs_url="/docs",

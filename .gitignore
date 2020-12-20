@@ -34,4 +34,6 @@ build/
 .vscode/
 
 ### You can add your own IDE ignore things here.
-__pycache__/
+**/__pycache__/
+*.csv
+.python_history 
