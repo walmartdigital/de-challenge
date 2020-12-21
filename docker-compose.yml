@@ -9,8 +9,8 @@ services:
       PYTHONUNBUFFERED: 1
       PYTHONDONTWRITEBYTECODE: 1
     volumes:
-      - ./core/elt.py:/root/ 
-    command: "python3 -m etl.py"
+      - ./:/root/
+    command: "python  /root/core/etl.py"
                  
   backend:
     image: "games_api"

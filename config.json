@@ -4,6 +4,11 @@
         "port": 8080,
         "url_prefix": "/game_service",
         "api_name": "game_service",
-        "version": "1.0"
+        "version": "1.0",
+
+        "data": {
+            "raw": "/root/data/",
+            "processed": "/root/processed_data/"
+        }
     }
 }
