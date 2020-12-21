@@ -23,7 +23,7 @@ services:
       - etl
     volumes:
       - ./:/root/ 
-    command: "uvicorn main:app --reload --workers 1 --host localhost --port 8080"
+    command: "uvicorn main:app --reload --workers 1 --host 0.0.0.0 --port 5000"
                
     ports:
-      - 8080:8080 
+      - 8080:5000  

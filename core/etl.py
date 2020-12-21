@@ -9,8 +9,8 @@ def get_data(path : str):
     
     global DIR_DATA
 
-    df_consoles = pd.read_csv(path+'consoles.csv' , sep=',')
-    df_result = pd.read_csv(path+'result.csv' , sep=',')
+    df_consoles = pd.read_csv(path+'consoles.csv' , sep=',').drop_duplicates()
+    df_result = pd.read_csv(path+'result.csv' , sep=',').drop_duplicates()
     print(f"{Emoji.ok} {this_function()}")
     return df_consoles , df_result
 
@@ -42,8 +42,8 @@ def save_data(df_dic):
     make_folder(DIR_PROCESSED_DATA , 755)
  
     df_dic['tcc'].to_csv(DIR_PROCESSED_DATA+'top_10_games_console_company.csv' , index=False)
-    df_dic['wcc'].to_csv(DIR_PROCESSED_DATA+'top_10_games_consoles.csv' , index=False)
-    df_dic['tc'].to_csv(DIR_PROCESSED_DATA+'worst_10_games_console_company.csv' , index=False)
+    df_dic['tc'].to_csv(DIR_PROCESSED_DATA+'top_10_games_consoles.csv' , index=False)
+    df_dic['wcc'].to_csv(DIR_PROCESSED_DATA+'worst_10_games_console_company.csv' , index=False)
     df_dic['wc'].to_csv(DIR_PROCESSED_DATA+'worst_10_games_consoles.csv' , index=False)
 
     print(f"{Emoji.ok} {this_function()}")

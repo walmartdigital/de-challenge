@@ -50,3 +50,9 @@ def make_folder(route, permissions=755):
             f"{Emoji.fire} {def_name}\n       ", log(e))
 
 
+
+def error_handler(status, errors):
+    error_status = {"status": status, "errors": errors}
+    return error_status
+
+ 

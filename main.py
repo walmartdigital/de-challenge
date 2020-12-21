@@ -1,25 +1,26 @@
-from fastapi import  FastAPI, status
-from fastapi.middleware.cors import CORSMiddleware
+from fastapi import  FastAPI, status , Request
+from fastapi.middleware.cors import CORSMiddleware 
 from core.env import   URL_PREFIX , API_NAME,API_VERSION
 
 from service_game import controller as game 
 from core.base_model import ErrorResponse
  
 app = FastAPI(
-    root_path= f'{URL_PREFIX}',
-    title = API_NAME,
-    version = API_VERSION ,
+    title=API_NAME,
+    version=API_VERSION,
     docs_url="/docs",
-    reload =True
-    )
+    reload=True,
+    debug=True,
+    #root_path=f'{URL_PREFIX}',
+)
 
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=['*'],
+    allow_origins=["*"],
     allow_credentials=True,
-    allow_methods=['*'],
-    allow_headers=['*'],
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 app.include_router(
