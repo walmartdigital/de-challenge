@@ -43,5 +43,3 @@ We use the data from TopGames provided by Metascore.
 * [Kaggle: Metacritic reviewed games since 2000](https://www.kaggle.com/destring/metacritic-reviewed-games-since-2000)
 
 
-## Disclaimer Note
-"This challenge is your cover letter, the elections you choose to do & not to do matters, and will be ask in the next interview"
