@@ -26,13 +26,22 @@ Use any tool, but please tell us the tool you choose & why.
 ## Deployment 
 We want you to give us the way to deploy your job and run it in any environment, So please put the way to deploy very clearly.
 
-# Concerns
+## Concerns
 - You can create a new README for anything you want to tell us. Please don't name README.md
 - We want to see if you know how to code in a professional way, so use the best practices of Software Engineering!.
 - This is an ETL Job, so show us all you know about good practices to do ETL's.
 - Save all the changes in your personal GitHub account using a Fork from this repository and send us the link to clone and see the repository.
 
+
+### Disclaimer Note
+"This challenge is your cover letter, the elections you choose to do & not to do matters, and will be ask in the next interview"
+
+
 ## Datasets
 We use the data from TopGames provided by Metascore.
 
 * [Kaggle: Metacritic reviewed games since 2000](https://www.kaggle.com/destring/metacritic-reviewed-games-since-2000)
+
+
+## Disclaimer Note
+"This challenge is your cover letter, the elections you choose to do & not to do matters, and will be ask in the next interview"
